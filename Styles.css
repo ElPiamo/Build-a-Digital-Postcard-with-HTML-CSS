@@ -1,0 +1,63 @@
+html, body {
+    Position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Handlee', cursive;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    height: auto;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div > img {
+    height: 70px;
+}
+
+Section{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parrafo1, .parrafo2{
+    padding-right: 5px;
+    margin-top: 0%;
+    text-align: left;
+    font-size: 1.35rem;
+    font-weight: 600;
+    width: 350px   ;
+}
+
+input {
+    font-size: 1.2rem;
+    border: none; border-bottom: rgb(133, 132, 132) 1px solid;
+    font-family: 'Handlee', cursive;
+}
+
+footer {
+    height: 90px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    
+    }
+
+footer > button{
+    background-color: rgb(196, 196, 196);
+    padding-top: 20px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+}
